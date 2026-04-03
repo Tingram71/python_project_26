@@ -59,12 +59,12 @@ plt.show()
 
 - Python and SQL are versatile and in-demand skill across all 3 of the top jobs. Python is the top skill for Data Engineers (61% )and Data Scientists (62%).
 - SQL is the most requested skill for Data Analysts with 58% probability it will be requested for Data Analysts and 49% for Data Scientists. For Data Engineers Python is the most requested skill and the chance of it being requested in a job ad is 61%.
-- Data Engineers require a more cloud focussed technical skillset (Azure, AWS, GCP) compared to Data Analysts who are expected to be more efficient in more general data mangement and analysis tools like Tableau and Power BI.
+- Data Engineers require a more cloud focussed technical skill-set (Azure, AWS, GCP) compared to Data Analysts who are expected to be more efficient in more general data management and analysis tools like Tableau and Power BI.
 
 ## 2. How are in-demand skills trending for Data Analysts?
 
 
-To see how trends are developing over the course of a year, I first separated the skills out from their job listing and created a new dataframe that ordered the count of job skills and their percentagage chance of appearing in job ads
+To see how trends are developing over the course of a year, I first separated the skills out from their job listing and created a new data-frame that ordered the count of job skills and their percentage chance of appearing in job ads
 
 ## Creating the Data-Frame:
 
@@ -126,3 +126,8 @@ df_da_swe_percent = df_da_swe_percent.drop(columns = 'job_posted_month_no')
 - ``Power BI`` and ``SQL`` are both in high pay and high demand suggesting these are valuable skills to focus on.
 
 - Skills like ``Python``, ``Azure`, `Databricks`` are in demand but slightly lower paid reflecting growing adoption and more mid level roles.
+
+## What is the most optimal skill to learn for data analysts?
+
+To discover the optimal skills, I grouped skills to determine median salary and the likeliehood of them being in job postings. Then I created visualizations of median salary against the percentage of skills demanded. Lastly, I wanted to see if these skills belonged to a particular technology and if there was a sector that was more prevalant.
+
